@@ -1,0 +1,170 @@
+title: Neil Patel
+email: your-email@example.com
+logo: "/assets/images/logo.svg"
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+home:
+  services:
+    enabled: true
+    background: "#fff"
+    heading: "<span>Automation for</span> Digital Marketers"
+    smallHeading: ""
+    description: He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top ...
+    items:
+    - heading: >
+       <span> discover</span>       
+       Our Services
+      body: > 
+        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
+        <ul>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+        </ul>
+      icon: "/assets/images/search.png"
+    - heading: >
+       <span> discover</span>       
+       Our Services
+      body: > 
+        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
+        <ul>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+        </ul>
+      icon: "/assets/images/file.png"
+    - heading: >
+       <span> discover</span>       
+       Our Services
+      body: > 
+        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
+        <ul>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+        </ul>
+      icon: "/assets/images/chart.png"
+  contact:
+    enabled: true
+    background: "#FAFBFD"
+    image: "/assets/images/book.png"
+    heading: "<span>Book a</span> Discovery Call"
+    smallHeading: ""
+    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    btnText: "yes, i want to <strong>work</strong> with <strong>neil</strong>"
+    btnUrl: "#"
+  about:
+    enabled: true
+    background: "#fff"
+    heading: "<span>Why</span> ME?"
+    exp: 9
+    image: "/assets/images/about.png"
+    description: "He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top ..."
+    body: | 
+      <h4>yes, i want to <strong>work</strong> with <strong> neil </strong> </h4> 
+
+      <p>He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, </p>
+
+      <h4>yes, i want to <strong>work</strong> with <strong>neil </strong> </h4> 
+
+      <p>He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, </p> 
+  subscribe:
+    enabled: true
+    background: "#F8F9FC"
+    heading: "Subscribe our Newslatter"
+    smallHeading: "what’s next?"
+    description: Get notification about tips, new product and exclusive promo news just for you.
+
+
+
+
+
+footer:
+  copyright: © 2021 Onix All rights reserved.
+  about: Build custom blogs, portfolios, ecommerce stores, and more with a flexible CMS. Experience the power of HTML, CSS.
+  leftcolHeading: Links
+  centercolHeading:  "About"
+  rightcolHeading: "Our Office"
+  leftcol:
+  - link: "/"
+    text: Home
+  - link: "/"
+    text: Services
+  - link: "/"
+    text: How It Works
+  - link: "/"
+    text: Tutorial
+  - link: "/"
+    text: Contact
+  centercol:
+  - text: Partners
+    link: "#home"
+    pageType: "same"
+  - text: Careers
+    link: "#how-its-works"
+    pageType: "same"
+  - text: Press
+    link: "#about"
+    pageType: "same"
+  - text: Community
+    link: "#about"
+    pageType: "Community"
+  rightcol:
+  - location: Indonesia
+    address: Jl. Griya Permata Hijau no D1 Purwomartani Kalasan 543881
+  - location: Tokyo
+    address: 35 Mandalay Road 13–37 Mandalay Towers Singapore 308215
+
+
+social:
+  enable: true
+  items:
+  - icon: "fab fa-facebook-f"
+    title: "facebook"
+    link: "#"
+  - icon: "fab fa-twitter"
+    title: "twitter"
+    link: "#"
+  - icon: "fab fa-linkedin-in"
+    title: "linkedin"
+    link: "#"
+
+      
+
+ 
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+# Build settings
+// theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
